@@ -1,4 +1,98 @@
-body{
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ2cjc4Nm9rcXg0dmhqMjJ3b3VxOHN2aW5wbG9tMHZyZWlzOHp4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUNd9NOHPPqnDzQBck/giphy.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
     text-align: center;
-    color: blanchedalmond;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de opacidad */
+    width: 100%;
+}
+
+.derechos, .divtitulo{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de opacidad */
+    padding: 30px;
+   
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    color:antiquewhite;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1::after,h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h1::before{
+    left:-140px;
+}
+
+h1::after{
+    right: -140px;
+}
+
+input, select, input {
+    width: 93%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 5px solid #ccc;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+input:focus, select:focus, input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+}
+
+input {
+    min-height: 100px;
+    resize: none;
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 15px rgba(41, 128, 185, 0.3);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+#outputText {
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }

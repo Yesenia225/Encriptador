@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title>Encriptador de mensajes con emojis</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Encriptador</h1>
+    <div class="divtitulo"> 
+        <h1>Emojix: Descifrando el Lenguaje Secreto de Emojis</h1>
     </div>
+    <div class="container">
+        <input id="inputText" placeholder="Escribe tu mensaje aquí..."></input>
 
+        <select id="emojiCategory">
+            <option value="animals">Animales</option>
+            <option value="food">Comida</option>
+            <option value="sports">Deportes</option>
+            <option value="faces">Caras</option>
+        </select>
+
+        <button class="btn" onclick="encryptMessage()">Encriptar 🔐 </button>
+        <button class="btn" onclick="decryptMessage()">Desencriptar 🔓 </button>
+
+        <input id="outputText" placeholder="Tu mensaje aparecerá aquí..." readonly></input>
+    </div>
+    <footer class="derechos">
+        © Todos los derechos reservados
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
