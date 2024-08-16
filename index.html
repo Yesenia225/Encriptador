@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de mensajes con emojis</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="divtitulo"> 
         <h1>Emojix: Descifrando el Lenguaje Secreto de Emojis</h1>
     </div>
     <div class="container">
-        <input id="inputText" placeholder="Escribe tu mensaje aquí..."></input>
+      <div class="encriptar">
+        <input type="text" class="texto" id="inputText" placeholder="Escribe tu mensaje aquí...">
 
-        <select id="emojiCategory">
-            <option value="animals">Animales</option>
-            <option value="food">Comida</option>
-            <option value="sports">Deportes</option>
-            <option value="faces">Caras</option>
-        </select>
+        <div class="terminos">
+          <p>Solo letras minúsculas y sin acentos.</p>
+        </div>
 
-        <button class="btn" onclick="encryptMessage()">Encriptar 🔐 </button>
-        <button class="btn" onclick="decryptMessage()">Desencriptar 🔓 </button>
-
-        <input id="outputText" placeholder="Tu mensaje aparecerá aquí..." readonly></input>
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encryptMessage()">Encriptar 🔐 </button>
+            <button class="btn-desencriptar" type="button" onclick="decryptMessage()">Desencriptar 🔓 </button>
+        </div>
+        
+      </div>
+      <div class="encriptado">
+        <img src="img/muñeco.png" alt="" id="muñeco" />
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+          <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+          <p id="parrafo">
+            Ingresa el texto que deseas encriptar o desencriptar
+          </p>
+          <div class="categorias">
+            <select id="emojiCategory">
+                <option value="animals">Animales</option>
+                <option value="food">Comida</option>
+                <option value="sports">Deportes</option>
+                <option value="faces">Caras</option>
+            </select>
+        </div>
+        </div>
+      </div>
     </div>
     <footer class="derechos">
         © Todos los derechos reservados
     </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
+  
 </html>
