@@ -23,7 +23,13 @@
     display: inline-block;
     position: relative;
     color:pink;
+    text-shadow:
+    3px 3px 2px fuchsia,
+    -3px 3px 2px fuchsia,
+    -3px -3px 0 fuchsia,
+    3px -3px 0 fuchsia;
     font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 20px rgb(199, 68, 255);
 }
 
 h1::after,h1::before{
@@ -64,6 +70,8 @@ h1::after{
     font-size: 32px;
     line-height: 150%;
     background-color: pink;
+    border: 5px ridge fuchsia;
+    box-shadow: 0 0 20px rgb(199, 68, 255);
   }
   
   .texto::placeholder {
@@ -113,17 +121,16 @@ h1::after{
   }
   
   .btn-encriptar {
-    align-items: center;
-    justify-content: center;
     padding: 2%;
-    gap: 8px;
     width: 25%;
-    background-color: hotpink;
+    background: rgb(255, 182, 193);
     border-radius: 24px;
     font-family: "Inter";
     font-size: 18px;
     line-height: 19px;
     text-align: center;
+    border: 5px ridge fuchsia;
+    box-shadow: 0 0 20px rgb(199, 68, 255);
   }
   
   .btn-desencriptar {
@@ -133,16 +140,17 @@ h1::after{
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
-    gap: 8px;
     width: 25%;
     background: rgb(255, 182, 193);;
-    border: 1px solid #0a3871;
+    border: 5px ridge fuchsia;
     border-radius: 24px;
     font-family: "Inter";
     font-weight: 400;
     font-size: 18px;
     line-height: 19px;
     text-align: center;
+    margin-left: 10px;
+    box-shadow: 0 0 20px rgb(199, 68, 255);
   }
   
   .btn-desencriptar:hover,
@@ -163,6 +171,8 @@ h1::after{
     background: pink;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    border: 5px ridge fuchsia;
+    box-shadow: 0 0 20px rgb(199, 68, 255);
   }
   
   .mensaje-encriptado {
@@ -174,7 +184,7 @@ h1::after{
     gap: 16px;
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 60%;
     text-align: center;
   }
   
@@ -204,7 +214,7 @@ h1::after{
     position: absolute;
     width: 80%;
     height: 50%;
-    top: 15%;
+    top: 9%;
   }
   
   /* Responsive design */
@@ -266,5 +276,6 @@ h1::after{
   .derechos{
     padding: 33px;
     text-align: center;
-    color: palevioletred;
+    color: rgb(202, 26, 84);
+    text-shadow: 0 0 10px rgb(199, 68, 255);
   }

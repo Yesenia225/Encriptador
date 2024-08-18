@@ -9,44 +9,43 @@
   </head>
   <body>
     <div class="divtitulo"> 
-        <h1>Emojix: Descifrando el Lenguaje Secreto de Emojis</h1>
-    </div>
-    <div class="container">
+      <h1>Emojix: Descifrando el Lenguaje Secreto de Emojis</h1>
+  </div>
+  <div class="container">
       <div class="encriptar">
-        <input type="text" class="texto" id="inputText" placeholder="Escribe tu mensaje aquí...">
+          <input type="text" class="texto" id="inputText" placeholder="Escribe tu mensaje aquí...">
 
-        <div class="terminos">
-          <p>Solo letras minúsculas y sin acentos.</p>
-        </div>
+          <div class="terminos">
+              <p>Solo letras minúsculas y sin acentos.</p>
+          </div>
 
-        <div class="botones">
-            <button class="btn-encriptar" type="button" onclick="encryptMessage()">Encriptar 🔐 </button>
-            <button class="btn-desencriptar" type="button" onclick="decryptMessage()">Desencriptar 🔓 </button>
-        </div>
-        
+          <div class="botones">
+              <button class="btn-encriptar" type="button" onclick="encryptMessage()">Encriptar 🔐</button>
+              <button class="btn-desencriptar" type="button" onclick="decryptMessage()">Desencriptar 🔓</button>
+          </div>
       </div>
       <div class="encriptado">
-        <img src="emoji-smiley.gif" alt="" id="muñeco" />
-        <div class="mensaje-encriptado" id="mensaje-encriptado">
-          <div class="categorias">
-            <p class="categori" id="categori">Categoria</p>
-            <select id="emojiCategory">
-                <option value="animals">Animales</option>
-                <option value="food">Comida</option>
-                <option value="sports">Deportes</option>
-                <option value="faces">Caras</option>
-            </select>
+          <img src="emoji-smiley.gif" alt="" id="muñeco" />
+          <div class="mensaje-encriptado" id="mensaje-encriptado">
+              <div class="categorias">
+                  <p class="categori" id="categori">Categoría</p>
+                  <select id="emojiCategory">
+                      <option value="animals">Animales</option>
+                      <option value="food">Comida</option>
+                      <option value="sports">Deportes</option>
+                      <option value="faces">Caras</option>
+                  </select>
+              </div>
+              <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+              <p id="parrafo">
+                  Ingresa el texto que deseas encriptar o desencriptar.
+              </p>
           </div>
-          <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
-          <p id="parrafo">
-            Ingresa el texto que deseas encriptar o desencriptar
-          </p>
-        </div>
       </div>
-    </div>
-    <footer class="derechos">
-        © Todos los derechos reservados
-    </footer>
+  </div>
+  <footer class="derechos">
+      © Todos los derechos reservados
+  </footer>
     <script src="js/script.js"></script>
   </body>
   
