@@ -215,6 +215,7 @@ h1::after{
     width: 80%;
     height: 50%;
     top: 9%;
+    border-radius: 20px;
   }
   
   /* Responsive design */
