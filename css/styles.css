@@ -62,7 +62,7 @@ h1::after{
     width: 42%;
     height: 60%;
     left: 12%;
-    top: 15%;
+    top: 10%;
     border: none;
     font-family: "Inter";
     font-style: normal;
@@ -91,9 +91,9 @@ h1::after{
     padding: 0px;
     gap: 8px;
     position: absolute;
-    width: 80%;
-    left: 12%;
-    top: 80%;
+    width: 75%;
+    left: 13%;
+    top: 73%;
   }
   
   .terminos p {
@@ -117,7 +117,7 @@ h1::after{
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 82%;
+    top: 75%;
   }
   
   .btn-encriptar {
