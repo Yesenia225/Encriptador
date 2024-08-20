@@ -225,13 +225,13 @@ h1::after{
   outline: 0; 
   border: 0;
   border-radius: 0;
-  background: #f0f0f0;
-  color: #7b7b7b;
+  background:#f599c9;
+  color: #da2494;
   font-size: 1em;
-  color: #999;
-  font-family: 
-  'Quicksand', sans-serif;
-  border:2px solid rgba(0,0,0,0.2);
+  color: #e91e63;
+  font-family:'Quicksand', sans-serif;
+  text-align: center;
+  border:2px solid rgba(212, 32, 32, 0.2);
   border-radius: 12px;
   position: relative;
   transition: all 0.25s ease;
@@ -305,12 +305,12 @@ h1::after{
   outline: 0;
   border: 0;
   border-radius: 0;
-  background: #f0f0f0;
-  color: #7b7b7b;
+  background: #f599c9;
+  color:  #e91e63;
   font-size: 1em;
-  color: #999;
+  color:  #da2494;
   font-family: 'Quicksand', sans-serif;
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid  rgba(212, 32, 32, 0.2);
   border-radius: 12px;
   position: relative;
   transition: all 0.25s ease;
