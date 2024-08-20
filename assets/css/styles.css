@@ -19,6 +19,18 @@
     padding-top: 33px;
   }
 
+  .desplazamiento {
+    margin: 10px 0;
+  }
+  
+  .desplazamiento label {
+    margin-right: 10px;
+  }
+  
+  .desplazamiento input[type="number"] {
+    width: 60px;
+  }
+
   h1 {
     display: inline-block;
     position: relative;
@@ -175,6 +187,42 @@ h1::after{
     box-shadow: 0 0 20px rgb(199, 68, 255);
   }
   
+  .emoji{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .emoji:-ms-expand {
+      display: none;
+  }
+  
+  .categorias{
+    max-width: 250px;
+    position: relative;
+  }
+   
+  .emoji{
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+      padding: 7px 10px;
+      height: 42px;
+      outline: 0; 
+      border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+      border-radius: 12px;
+      position: relative;
+      transition: all 0.25s ease;
+  }
+  
   .mensaje-encriptado {
     display: flex;
     flex-direction: column;
@@ -217,6 +265,27 @@ h1::after{
     top: 9%;
     border-radius: 20px;
   }
+
+  .categori {
+    font-family: 'Archivo Black', sans-serif; 
+    font-size: 68px; 
+    color: #e91e63; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    text-shadow: 3px 3px 6px rgba(225, 7, 80, 0.5); 
+}
+.desplazamiento {
+    margin: 10px 0;
+  }
+  
+  .desplazamiento label {
+    margin-right: 10px;
+  }
+  
+  .desplazamiento input[type="number"] {
+    width: 60px;
+  }
+  
   
   /* Responsive design */
   @media (max-width: 57.5em) {
@@ -279,4 +348,6 @@ h1::after{
     text-align: center;
     color: rgb(202, 26, 84);
     text-shadow: 0 0 10px rgb(199, 68, 255);
+    background-color: pink;
+    width: 100%;
   }
