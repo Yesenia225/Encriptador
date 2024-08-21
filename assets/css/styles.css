@@ -32,7 +32,7 @@ h1 {
   text-shadow: 0 0 20px rgb(199, 68, 255);
 }
 
-h1::after,h1::before{
+h1:after,h1:before{
   content:'';
   position: absolute;
   width: 120px;
@@ -41,11 +41,11 @@ h1::after,h1::before{
   top: 0.6em;
 }
 
-h1::before{
+h1:before{
   left:-140px;
 }
 
-h1::after{
+h1:after{
   right: -140px;
 }
 
